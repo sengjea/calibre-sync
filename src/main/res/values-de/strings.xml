@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="menu_settings">Einstellungen</string>
+    <string name="menu_disconnect">Verbindung beenden</string>
+    <string name="menu_rediscover">Erneut Server suchen</string>
+    <string name="menu_manual_connection">Manuelle Verbindung</string>
+    <string name="menu_goback">Zurück</string>
+    <string name="menu_collection_tags">Schlagwörter</string>
+    <string name="menu_search">Suche</string>
+    <string name="menu_collection_books">Bücher</string>
+    <string name="tab_collection">Bibliothek auf Gerät</string>
+    <string name="tab_connection">Verbindung</string>
+    <string name="tab_library">Bibliothek in Calibre</string>
+    <string name="connection_unresolved_ip">Hostname kann nicht aufgelöst werden. Bitte Internetverbindung überprüfen.</string>
+    <string name="connection_communicating">Datenaustausch mit %s</string>
+    <string name="connection_connecting">Verbinden mit %s</string>
+    <string name="connection_connected">Verbunden mit %s</string>
+    <string name="connection_disconnected">Nicht verbunden</string>
+    <string name="connection_calibre_busy">Der Calibre-Server ist schon belegt. Verbindung abgelehnt.</string>
+    <string name="dialog_title_connection_settings">Verbindungseinstellungen</string>
+    <string name="dialog_button_retry">Erneut versuchen</string>
+    <string name="dialog_button_delete">Löschen</string>
+    <string name="dialog_button_cancel">Abbrechen</string>
+    <string name="dialog_button_connect">Verbinden</string>
+    <string name="dialog_noserv_title">Kein Calibre-Server gefunden</string>
+    <string name="dialog_noserv_message">Bitte überprüfen Sie, ob der Calibre-Server läuft und die richtigen Ports geöffnet sind, und versuchen Sie es dann erneut.</string>
+    <string name="dialog_deletefile_message">Sind Sie sicher, dass Sie diese Datei löschen wollen?</string>
+    <string name="dialog_hint_password">Passwort</string>
+    <string name="dialog_hint_host">Hostname oder IP</string>
+    <string name="dialog_hint_wd_port">Port für Verbindung mit drahtlosem Gerät ("Wireless Device connection")</string>
+    <string name="dialog_hint_cs_port">Port für Inhalte-Server ("Content Server")</string>
+    <string name="dialog_downloading_book">Herunterladen Buch</string>
+    <string name="log_disc_working">Wifi-Netzwerk wird nach Calibre-Servern durchsucht</string>
+    <string name="log_uploading_file">Datei wird zu Calibre übertragen</string>
+    <string name="log_wait_for_drive">Dateisystem wird durchsucht</string>
+    <string name="log_error_dlfile">Fehler beim Herunterladen der Datei. Bitte Anwendung neu starten und Versuch wiederholen.</string>
+    <string name="log_err_wrong_password">Falsches Passwort eingegeben. Bitte Versuch wiederholen</string>
+    <string name="log_unable_to_connect">Verbindung mit Host fehlgeschlagen. Bitte Netzwerkeinstellungen überprüfen.</string>
+    <string name="toast_no_app_installed">Keine kompatible Anwendung zum Lesen dieser Datei installiert!</string>
+    <string name="toast_root_folder_renamed">Stammordner umbenannt. Die Bücherliste ist unverändert</string>
+    <string name="toast_root_folder_changed">Stammordner geändert. Bücherliste somit ebenfalls geändert</string>
+    <string name="toast_download_cancelled">Fehler beim Herunterladen der Datei. Bitte Versuch wiederholen</string>
+    <string name="note_received">Buch empfangen</string>
+    <string name="note_updated">Buch aktualisiert</string>
+    <string name="opds_loading">Herunterladen der Daten von: %s</string>
+    <string name="opds_more">Mehr...</string>
+    <string name="pref_autocon_title">Automatisch verbinden</string>
+    <string name="pref_autocon_summary">Automatisch Verbindung zur Calibre-Bibliothek aufbauen, sobald Wifi in Reichweite ist</string>
+    <string name="pref_wd_address_title">Verbindung mit drahtlosem Gerät</string>
+    <string name="pref_cs_url_title">URL für Inhalte-Server</string>
+    <string name="pref_rootdir_title">Stammverzeichnis</string>
+    <string name="pref_rootdir_dialog">Verzeichnisname muss mit Schrägstrich / enden</string>
+    <string name="pref_debug_title">Meldungen für Fehlerdiagnose anzeigen</string>
+    <string name="pref_debug_summary">Meldungen für Fehlerdiagnose auf der Registerkarte Verbindung einblenden</string>
+    <string name="pref_filetypes_title">Akzeptierte Dateitypen</string>
+    <string name="pref_filetypes_dialog">Bitte eine mit Leerzeichen getrennte Liste akzeptierter Dateiendungen eingeben</string>
+    <string name="apprater_title">Calibre Sync bewerten</string>
+    <string name="apprater_text">Hat Ihnen Calibre Sync gefallen? Senden Sie bitte einen Erfahrungsbericht ein. Vielen Dank!</string>
+    <string name="apprater_b1">Ja sicher! Ich möchte eine Bewertung verschicken</string>
+    <string name="apprater_b2">Vielleicht später</string>
+    <string name="apprater_b3">Nein danke</string>
+    <string name="search_hint">Suche Bücher</string>
+
+</resources>

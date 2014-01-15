@@ -1,0 +1,25 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context=".CollectionActivity"
+    android:orientation="vertical">
+
+    <ProgressBar
+        android:id="@+id/col_prog"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:indeterminate="true"
+        android:indeterminateOnly="false"
+        style="@android:style/Widget.ProgressBar.Horizontal"
+        android:visibility="invisible"/>
+
+    <ListView
+                        android:id="@+id/col_list"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content" >
+
+                    </ListView>
+
+
+</LinearLayout>

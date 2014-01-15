@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Translation Provided by roberto.caviglia@libero.it !-->
+<resources>
+    <string name="menu_disconnect">Terminare Connessione</string>
+    <string name="menu_rediscover">Trovare Servers</string>
+    <string name="menu_manual_connection">Connessione Manuale</string>
+    <string name="menu_goback">Ritorno</string>
+    <string name="menu_collection_tags">Filtrare Per Tags</string>
+    <string name="menu_search">Ricercare</string>
+    <string name="menu_settings">Settaggi</string>
+    <string name="menu_collection_books">Mostra Libri</string>
+    <string name="tab_collection">Libreria Dispositivo</string>
+    <string name="tab_connection">Connessioni</string>
+    <string name="tab_library">Libreria di Calibre</string>
+    <string name="connection_unresolved_ip">Impossibile risolvere l\'host. Controllare le impostazioni di connessione.</string>
+    <string name="connection_communicating">In Communicazione con %s</string>
+    <string name="connection_connecting">In Connessione con %s</string>
+    <string name="connection_connected">Connesso a %s</string>
+    <string name="connection_disconnected">Disconnesso</string>
+    <string name="connection_calibre_busy">Calibre � impegnato. Connessione Rifiutata.</string>
+    <string name="dialog_title_connection_settings">Settaggi Connessione</string>
+    <string name="dialog_button_retry">Riprova</string>
+    <string name="dialog_button_delete">Cancella</string>
+    <string name="dialog_button_cancel">Cancellare</string>
+    <string name="dialog_button_connect">Connettere</string>
+    <string name="dialog_noserv_title">Nessun Server Calibre Trovato</string>
+    <string name="dialog_noserv_message">Verifica che il tuo Server Calibre Server sia attivo, che le relative porte siano aperte, quindi riprova.</string>
+    <string name="dialog_deletefile_message">Sei sicuro di voler cancellare questo file ?</string>
+    <string name="dialog_hint_password">Password</string>
+    <string name="dialog_hint_host">Nome Host o IP</string>
+    <string name="dialog_hint_wd_port">Porta Connessione Wireless del Dispositivo </string>
+    <string name="dialog_hint_cs_port">Porta Server Contenuti</string>
+    <string name="dialog_downloading_book">Scaricamento Libro</string>
+    <string name="log_disc_working">Ricerca Server Calibre nella Rete Wireless</string>
+    <string name="log_uploading_file">Caricamento File su Calibre</string>
+    <string name="log_wait_for_drive">Scansione del filesystem</string>
+    <string name="log_error_dlfile">Errore download file. Riavviare l\'applicazione e riprovare.</string>
+    <string name="log_err_wrong_password">Inserimento password errato. Per favore riprovare.</string>
+    <string name="log_unable_to_connect">Impossibile connettersi all\'host. Controllare la configurazione di rete.</string>
+    <string name="toast_no_app_installed">Nessuna applicazione compatibile installata per leggere questo file!</string>
+    <string name="toast_root_folder_renamed">Cartella Radice (Root)rinominata. L\'Elenco libri � sempre lo stesso</string>
+    <string name="toast_root_folder_changed">Cartella Radice (Root) Modificata. L\'Elenco libri ora � differente</string>
+    <string name="toast_download_cancelled">Errore con il download del file. Riprovare</string>
+    <string name="log_error_root_folder_noread">Errore: Impossibile leggere la Cartella Radice (Root). Cambiare Cartella Radice (Root)</string>
+    <string name="note_received">Libro Ricevuto</string>
+    <string name="note_updated">Libro Aggiornato</string>
+    <string name="pref_autocon_title">Attiva Connessione Automatica</string>
+    <string name="pref_autocon_summary">Connetti alla Libreria Calibre quanto la connessione wireless � vicina</string>
+    <string name="pref_wd_address_title">Indirizzo Server Dispositivo</string>
+    <string name="pref_cs_url_title">URL Server dei Contenuti</string>
+    <string name="pref_rootdir_title">Directory Radice</string>
+    <string name="pref_rootdir_dialog">La Directory deve finire con barra /</string>
+    <string name="pref_debug_title">Mostra Debug</string>
+    <string name="pref_debug_summary">Seleziona per far comparire i messaggi di Debug nella Scheda Connessioni</string>
+    <string name="pref_filetypes_title">Tipo Files Accettato</string>
+    <string name="pref_filetypes_dialog">Si prega di fornire un elenco separato da spazi per le estensioni di file accettate</string>
+    <string name="pref_version_name">Versione Calibre Sync</string>
+    <string name="opds_loading">Sto Caricando %s</string>
+    <string name="opds_more">Altro...</string>
+    <string name="search_hint">Ricerca Libri</string>
+    <string name="apprater_title">Valuta Calibre Sync</string>
+	 <string name="apprater_text">Ti Piace Calibre Sync? Si prega di inserire un commento. Grazie!</string>
+	 <string name="apprater_b1">Certo! Valuto Calibre Sync</string>
+	 <string name="apprater_b2">Forse Pi� Tardi</string>
+	 <string name="apprater_b3">No, Grazie</string>  
+
+</resources>

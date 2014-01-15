@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+            android:id="@+id/menu_rediscover"
+            android:icon="@drawable/ic_menu_rediscover"
+            android:title="@string/menu_rediscover"></item>
+    <item
+            android:id="@+id/menu_manual_connection"
+            android:icon="@drawable/ic_menu_manual_connection"
+            android:title="@string/menu_manual_connection"
+            android:showAsAction="ifRoom"></item>
+    <item
+            android:id="@+id/menu_disconnect"
+            android:icon="@drawable/ic_menu_disconnect"
+            android:title="@string/menu_disconnect"></item>
+    <item
+            android:id="@+id/menu_settings"
+            android:icon="@drawable/ic_menu_settings"
+            android:title="@string/menu_settings"></item>
+
+
+</menu>

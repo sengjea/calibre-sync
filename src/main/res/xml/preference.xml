@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    <CheckBoxPreference android:key="pref_autocon" android:title="@string/pref_autocon_title" android:defaultValue="false" android:summary="@string/pref_autocon_summary"/>
+    <EditTextPreference android:key="pref_wd_address" android:title="@string/pref_wd_address_title" android:dependency="pref_autocon" />
+    <EditTextPreference android:key="pref_cs_url" android:title="@string/pref_cs_url_title" />
+    <EditTextPreference android:title="@string/pref_rootdir_title" android:key="pref_root_dir" android:dialogMessage="@string/pref_rootdir_dialog" android:defaultValue="eBooks/" />
+    <CheckBoxPreference android:summary="@string/pref_debug_summary" android:title="@string/pref_debug_title" android:key="pref_debug"/>
+    <EditTextPreference android:title="@string/pref_filetypes_title" android:key="pref_filetypes" android:dialogMessage="@string/pref_filetypes_dialog" android:defaultValue="epub pdf mobi azw3 pdb fb2 rtf html" />
+    <Preference android:title="@string/pref_version_name" android:key="pref_app_version_name" />
+</PreferenceScreen>

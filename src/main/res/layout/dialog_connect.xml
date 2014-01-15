@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/base_table"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:padding="5dp"
+    android:clickable="false"
+        >
+
+    <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+        <ProgressBar
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/connect_dlg_progress"
+                android:layout_weight="1"
+                style="@android:style/Widget.ProgressBar.Horizontal"
+                android:indeterminate="true"
+                android:indeterminateOnly="true"/>
+    </TableRow>
+
+    <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+        <EditText
+            android:id="@+id/host"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="@string/dialog_hint_host"
+            android:inputType="textUri"
+                />
+    </TableRow>
+
+    <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+        <EditText
+            android:id="@+id/wd_port"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/dialog_hint_wd_port"
+            android:inputType="number"
+            android:layout_weight="1"
+            android:enabled="true"/>
+
+        <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/cs_port"
+                android:hint="@string/dialog_hint_cs_port"
+                android:inputType="number"
+                android:layout_weight="1"
+                />
+    </TableRow>
+
+    <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/dialog_hint_password"
+            android:inputType="textPassword"
+            android:layout_weight="1"/>
+    </TableRow>
+
+    <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+        <CheckBox
+            android:id="@+id/autocon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/pref_autocon_title"
+            android:layout_weight="1"
+            android:checked="false"
+                />
+    </TableRow>
+
+    <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+        <Button
+            android:id="@+id/connect_server_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/dialog_button_cancel"
+            android:layout_weight="1"
+                />
+
+        <Button
+                android:id="@+id/connect_server_connect"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/dialog_button_connect"
+                android:layout_weight="1"
+                />
+    </TableRow>
+
+</TableLayout>

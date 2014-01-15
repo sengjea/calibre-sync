@@ -1,0 +1,62 @@
+buildscript {
+    repositories {
+        mavenCentral()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:0.7+'
+    }
+}
+
+apply plugin: 'android'
+
+dependencies {
+    compile 'com.android.support:support-v4:19.0.+'
+}
+repositories {
+    mavenCentral()
+}
+android {
+    compileSdkVersion 19
+    buildToolsVersion "19"
+    defaultConfig {
+        versionCode 11
+        versionName '1.1.4.6'
+        minSdkVersion 5
+        targetSdkVersion   19
+
+    }
+    lintOptions {
+        disable 'NewApi'
+    }
+    sourceSets {
+        main {
+            manifest.srcFile 'AndroidManifest.xml'
+            java.srcDir 'src/main/java'
+            res.srcDir 'src/main/res'
+        }
+    }
+
+    signingConfigs {
+        release {
+            Properties keystore = new Properties()
+            keystore.load(new FileInputStream(file("../keystore.properties")))
+            storeFile file(keystore['storeFile'])
+            storePassword keystore['storePassword']
+            keyAlias keystore['keyAlias']
+            keyPassword keystore['keyPassword']
+        }
+    }
+    buildTypes {
+        release {
+            signingConfig signingConfigs.release
+
+
+        }
+
+    }
+    applicationVariants.all { variant ->
+        apk = variant.outputFile
+        variant.outputFile = new File(apk.parentFile, apk.name.replace("-release", "-v" + defaultConfig.versionName))
+
+    }
+}

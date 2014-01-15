@@ -1,0 +1,16 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context=".CollectionActivity" >
+                    <ListView
+                        android:id="@+id/col_list"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:clickable="true"
+                        android:paddingTop="5dp"
+                        tools:listitem="@layout/book_item" >
+                    </ListView>
+
+</RelativeLayout>
